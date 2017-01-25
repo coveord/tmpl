@@ -10,13 +10,14 @@ A really fast template parser
  from a guy who had much free time.
 
  You can override variable or define new ones using environment variables
-  prefixed with TMPL_ ex: TMPL_XVAR
+prefixed with TMPL_ ex: TMPL_XVAR
 
 Usage:
   tmpl -t <templateFile> -v <variableFile> [flags]
 
 Flags:
-      --debug                 Wheter to have debug information
-  -t, --templateFile string   The source template file
-  -v, --variableFile string   The source of all variables (yaml formatted)
+      --debug              Wheter to have debug information
+  -o, --output string      Output stdout by default for a single file, (required for dir template)
+  -t, --template string   The template (dir or file)
+  -v, --vars string        The main variables source (yaml)
   ```
