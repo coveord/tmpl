@@ -13,7 +13,7 @@ A really fast template parser
 prefixed with TMPL_ ex: TMPL_XVAR
 
 Usage:
-  tmpl -t <templateFile> -v <variableFile> [flags]
+  tmpl -t=<templateDirectory> -v=<variableFile> -o=<outputDirectory>
 
 Flags:
       --debug              Wheter to have debug information
