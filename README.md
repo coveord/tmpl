@@ -1,7 +1,7 @@
 # tmpl
 
 a mix of [cobra](github.com/spf13/cobra), [viper](github.com/spf13/viper) and
-`text/template` and you get something really powerfull from a simple way.
+`text/template` and you get something really powerfull in a simple way.
 
 ## Usage
 
